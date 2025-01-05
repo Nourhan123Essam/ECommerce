@@ -14,7 +14,7 @@ namespace ECommerce_CommonLibrary.Interfaces
         Task<Responses.Response> CreateAsync(T entity);
         Task<Responses.Response> UpdateAsync(T entity);
         Task<Responses.Response> DeleteAsync(T entity);
-        Task<IEnumerable<Responses.Response>> GetAllAsync();
+        Task<IEnumerable<T>> GetAllAsync();
         Task<T> FindByIdAsync(int id);
         Task<T> GetByAsync(Expression<Func<T, bool>> predicate);
 
