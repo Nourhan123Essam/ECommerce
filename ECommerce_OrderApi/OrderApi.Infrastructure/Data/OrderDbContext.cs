@@ -3,8 +3,12 @@ using OrderApi.Domain.Entities;
 
 namespace OrderApi.Infrastructure.Data
 {
-    public class OrderDbContext(DbContextOptions<OrderDbContext> options): DbContext(options)
+    public class OrderDbContext : DbContext
     {
-        public DbSet<Order> orders {  get; set; }       
+        public OrderDbContext(DbContextOptions<OrderDbContext> options) : base(options)
+        {
+        }
+
+        public DbSet<Order> Orders { get; set; }
     }
 }

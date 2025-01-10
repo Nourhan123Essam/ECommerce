@@ -19,7 +19,7 @@ namespace OrderApi.Infrastructure.Repositories
         {
             try
             {
-                var order = context.orders.Add(entity).Entity;
+                var order = context.Orders.Add(entity).Entity;
                 await context.SaveChangesAsync();
 
                 return order.Id > 0? new Response(true, "Order placed successfully") : new Response(false, "Error occurred while placing order");
@@ -43,7 +43,7 @@ namespace OrderApi.Infrastructure.Repositories
                 {
                     return new Response(false, "Order not found");
                 }
-                context.orders.Remove(order);
+                context.Orders.Remove(order);
                 await context.SaveChangesAsync();
                 return new Response(true, "Order deleted successfully");
             }
@@ -61,7 +61,7 @@ namespace OrderApi.Infrastructure.Repositories
         {
             try
             {
-                var order = await context.orders.FindAsync(id);
+                var order = await context.Orders.FindAsync(id);
                 return order;
 
             }
@@ -79,7 +79,7 @@ namespace OrderApi.Infrastructure.Repositories
         {
             try
             {
-                var orders = await context.orders.AsNoTracking().ToListAsync();
+                var orders = await context.Orders.AsNoTracking().ToListAsync();
                 return orders;
             }
             catch (Exception ex)
@@ -96,7 +96,7 @@ namespace OrderApi.Infrastructure.Repositories
         {
             try
             {
-                var order = await context.orders.Where(predicate).FirstOrDefaultAsync()!;
+                var order = await context.Orders.Where(predicate).FirstOrDefaultAsync()!;
                 return order;
             }
             catch (Exception ex)
@@ -113,7 +113,7 @@ namespace OrderApi.Infrastructure.Repositories
         {
             try
             {
-                var order = await context.orders.Where(predicate).ToListAsync();
+                var order = await context.Orders.Where(predicate).ToListAsync();
                 return order;
             }
             catch (Exception ex)
@@ -136,7 +136,7 @@ namespace OrderApi.Infrastructure.Repositories
                     return new Response(false, $"Order not found");
                 }
                 context.Entry(order).State = EntityState.Detached;
-                context.orders.Update(entity);
+                context.Orders.Update(entity);
                 await context.SaveChangesAsync();
                 return new Response(true, "Order Updated successfully");  
             }
