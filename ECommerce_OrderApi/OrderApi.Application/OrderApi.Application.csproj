@@ -8,12 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Polly.Core" Version="8.5.0" />
     <PackageReference Include="Polly.Extensions" Version="8.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ECommerce_CommonLibrary\ECommerce_CommonLibrary.csproj" />
+    <ProjectReference Include="..\..\Ecommerce_SharedLibrary\CommonLibrary\CommonLibrary.csproj" />
     <ProjectReference Include="..\OrderAoi.Domain\OrderApi.Domain.csproj" />
   </ItemGroup>
 

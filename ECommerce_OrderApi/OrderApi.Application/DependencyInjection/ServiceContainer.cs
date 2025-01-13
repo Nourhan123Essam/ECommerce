@@ -1,4 +1,4 @@
-﻿using ECommerce_CommonLibrary.Logs;
+﻿using CommonLibrary.Logs;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OrderApi.Application.Services;

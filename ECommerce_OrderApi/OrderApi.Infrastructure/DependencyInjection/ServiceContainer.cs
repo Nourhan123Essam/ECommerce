@@ -1,4 +1,4 @@
-﻿using ECommerce_CommonLibrary.DependencyInjection;
+﻿using CommonLibrary.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +21,10 @@ namespace OrderApi.Infrastructure.DependencyInjection
             //add database conncetivity
             //add authentication scheme
             SharedServiceContainer.AddSharedServices<OrderDbContext>(services, configuration, configuration["MySerilog:FileName"]);
+
+            //test to solve error
+            services.AddHttpContextAccessor();
+
 
             //create dependency injection
             services.AddScoped<IOrder, OrderRepository>();  

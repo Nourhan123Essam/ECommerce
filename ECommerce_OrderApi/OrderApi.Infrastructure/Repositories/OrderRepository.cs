@@ -1,5 +1,5 @@
-﻿using ECommerce_CommonLibrary.Logs;
-using ECommerce_CommonLibrary.Responses;
+﻿using CommonLibrary.Logs;
+using CommonLibrary.Responses;
 using Microsoft.EntityFrameworkCore;
 using OrderApi.Application.Interfaces;
 using OrderApi.Domain.Entities;
