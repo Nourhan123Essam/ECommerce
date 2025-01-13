@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerce_CommonLibrary.Responses
+namespace CommonLibrary.Responses
 {
     public record Response(bool Flag = false, string Message = null);
 }

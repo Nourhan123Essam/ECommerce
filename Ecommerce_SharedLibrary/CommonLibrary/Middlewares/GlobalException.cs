@@ -1,11 +1,11 @@
-﻿using ECommerce_CommonLibrary.Logs;
+﻿using CommonLibrary.Logs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Text.Json;
 using System.Threading;
 
-namespace ECommerce_CommonLibrary.Middlewares
+namespace CommonLibrary.Middlewares
 {
     public class GlobalException(RequestDelegate next)
     {

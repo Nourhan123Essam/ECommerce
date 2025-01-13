@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ECommerce_CommonLibrary\ECommerce_CommonLibrary.csproj" />
+    <ProjectReference Include="..\..\Ecommerce_SharedLibrary\CommonLibrary\CommonLibrary.csproj" />
     <ProjectReference Include="..\OrderAoi.Domain\OrderApi.Domain.csproj" />
   </ItemGroup>
 

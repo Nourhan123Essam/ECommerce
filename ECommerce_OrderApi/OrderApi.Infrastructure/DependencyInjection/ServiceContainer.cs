@@ -1,4 +1,4 @@
-﻿using ECommerce_CommonLibrary.DependencyInjection;
+﻿using CommonLibrary.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;

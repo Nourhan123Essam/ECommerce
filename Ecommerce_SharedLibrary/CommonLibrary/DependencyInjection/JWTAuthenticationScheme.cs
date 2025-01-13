@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerce_CommonLibrary.DependencyInjection
+namespace CommonLibrary.DependencyInjection
 {
     public static class JWTAuthenticationScheme
     {

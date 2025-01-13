@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi.Presentation", "AuthenitcationApi.Presentation\AuthenticationApi.Presentation.csproj", "{AFF8445A-3106-48D4-A2A0-E280C77AC958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce_CommonLibrary", "..\ECommerce_CommonLibrary\ECommerce_CommonLibrary.csproj", "{771E12DA-85FE-4D46-AD9C-F87373C92644}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "..\Ecommerce_SharedLibrary\CommonLibrary\CommonLibrary.csproj", "{7093A2F1-772B-4A01-B9BC-93307877A62A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{AFF8445A-3106-48D4-A2A0-E280C77AC958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFF8445A-3106-48D4-A2A0-E280C77AC958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFF8445A-3106-48D4-A2A0-E280C77AC958}.Release|Any CPU.Build.0 = Release|Any CPU
-		{771E12DA-85FE-4D46-AD9C-F87373C92644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{771E12DA-85FE-4D46-AD9C-F87373C92644}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{771E12DA-85FE-4D46-AD9C-F87373C92644}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{771E12DA-85FE-4D46-AD9C-F87373C92644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7093A2F1-772B-4A01-B9BC-93307877A62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7093A2F1-772B-4A01-B9BC-93307877A62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7093A2F1-772B-4A01-B9BC-93307877A62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7093A2F1-772B-4A01-B9BC-93307877A62A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

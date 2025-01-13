@@ -1,7 +1,7 @@
 ﻿using AuthenticationApi.Application.Interfaces;
 using AuthenticationApi.Infrastructure.Data;
 using AuthenticationApi.Infrastructure.Repositories;
-using ECommerce_CommonLibrary.DependencyInjection;
+using CommonLibrary.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;

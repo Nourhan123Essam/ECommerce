@@ -1,6 +1,6 @@
 using Ocelot.Cache.CacheManager;
 using Ocelot.DependencyInjection;
-using ECommerce_CommonLibrary.DependencyInjection;
+using CommonLibrary.DependencyInjection;
 using Microsoft.AspNetCore.Authentication;
 using GateWayApi.Presentation.Middleware;
 using Ocelot.Middleware;

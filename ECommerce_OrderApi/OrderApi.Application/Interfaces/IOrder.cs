@@ -1,4 +1,4 @@
-﻿using ECommerce_CommonLibrary.Interfaces;
+﻿using CommonLibrary.Interfaces;
 using OrderApi.Domain.Entities;
 using System.Linq.Expressions;
 

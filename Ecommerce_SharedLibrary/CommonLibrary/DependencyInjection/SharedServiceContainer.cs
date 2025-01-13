@@ -1,12 +1,12 @@
 ﻿
-using ECommerce_CommonLibrary.Middlewares;
+using CommonLibrary.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 
-namespace ECommerce_CommonLibrary.DependencyInjection
+namespace CommonLibrary.DependencyInjection
 {
     public static class SharedServiceContainer
     {
