@@ -1,6 +1,7 @@
-﻿using ECommerce_CommonLibrary.Interfaces;
-using ECommerce_CommonLibrary.Logs;
-using ECommerce_CommonLibrary.Responses;
+﻿using CommonLibrary.Responses;
+using CommonLibrary.Interfaces;
+using CommonLibrary.Logs;
+using CommonLibrary.Responses;
 using Microsoft.EntityFrameworkCore;
 using ProductApi.Application.Interfaces;
 using ProductApi.Domain.Entities;

@@ -1,4 +1,4 @@
-﻿using ECommerce_CommonLibrary.Interfaces;
+﻿using CommonLibrary.Interfaces;
 using ProductApi.Domain.Entities;
 using System;
 using System.Collections.Generic;

@@ -22,6 +22,10 @@ namespace OrderApi.Infrastructure.DependencyInjection
             //add authentication scheme
             SharedServiceContainer.AddSharedServices<OrderDbContext>(services, configuration, configuration["MySerilog:FileName"]);
 
+            //test to solve error
+            services.AddHttpContextAccessor();
+
+
             //create dependency injection
             services.AddScoped<IOrder, OrderRepository>();  
 
